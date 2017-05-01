@@ -1,0 +1,444 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+html{
+	background-image:url('images/bg_html.jpg');
+	font-family: Arial ;
+
+}
+
+.wrap{
+	max-width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.header{
+	height: auto;
+	padding: 20px 20px 0px 20px;
+}
+
+.Logo{
+	float:left; /*並排*/
+	
+}
+
+.Contacts{
+	float: right;
+}
+
+.Menu{
+	margin-bottom: 20px; 
+	float: right;
+}
+
+a{
+		text-decoration:none;
+		color:black;
+}
+
+.clear{
+	clear:both;
+}
+
+.choose{
+	float: left;
+	padding-left:40px;
+}
+
+.main{
+	width: 100%;
+	height: auto;
+}
+
+.ad{
+	width: 100%;
+	height: 420px;
+}
+
+
+.ad img{
+	float: left;
+	width:70%;
+	height: inherit;
+}
+
+.content-right{
+	width: 22%;
+	background-color: #202020;
+	float: left;
+	padding:80px 4% 80px 4% ; 
+	height: 260px;
+
+
+}
+
+h1{
+	font-size: 50px;
+	color:	#64B3D8;
+	/*margin-bottom: 10%;*/
+	/*height: 30%;*/
+}
+
+p{
+	font-size: 12px;
+	color: #9F9F9F;
+	line-height: 24px;　
+}
+
+.button{
+	width: 140px;
+	background-color:#404040;
+	color: white; 
+	font-size: 18px;
+	margin-top:40px ;
+	padding: 3% 1% 3% 1%;
+	text-align: center;
+}
+
+
+.middle{
+	background-color:white;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+	padding: 30px 30px 30px 30px;
+	line-height: 25px;
+}
+
+.detail{
+	background-color:white;
+	padding: 30px 30px 30px 30px;
+	line-height: 24px;
+
+}
+
+.events{
+	width:70%;
+	float: left;
+}
+
+.detail-p{
+	margin: 10px 20px 10px 10px ;
+	float: left;
+	width: auto;
+}
+
+.picture{
+	border-style:solid;
+	border-width:5px ;
+	border-color:#DFDFDF;
+	width: auto;
+}
+
+.detail-w{
+	margin: 10px 20px 20px 20px ;
+	line-height: 14px;
+}
+
+.detail-right{
+	width:30%;
+	float: right;
+}
+
+h2{
+	text-align:left;
+	font-size: 24px;
+
+}
+
+h3{
+	margin-bottom: 20px;
+	font-weight:bold;	
+	font-size: 18px;
+
+}
+
+ul{
+	font-size: 25px;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+input{
+	color:#DFDFDF;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    border: 2px solid #DFDFDF;
+    width: 80%;
+}
+
+.footer{
+	line-height: 24px;
+	text-align: center;
+}
+
+.word{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width:280px;
+	font-size: 25px;
+}
+
+.blue1{
+	color:#64B3D8;
+}
+
+.blue3{
+	max-width:130px;
+	color:#64B3D8;
+	font-size: 25px;
+}
+
+.search{
+	margin-top:30px; 
+}
+
+.search .button{
+	margin-top: 10px;
+	width: 70%;
+}
+
+.service{
+	width:100%;
+	float: left;
+}
+
+@media(max-width:768px){
+
+.Menu{
+	margin-top: 5px;
+	}
+
+.ad{
+	width:100%;
+	}
+
+.ad img{	
+	width:100%;
+	height: auto;
+	float: none;
+	}
+
+.content-right{
+	display: block;
+	width: 90%;
+	height: auto;
+	background-color: #202020;
+	padding: 5% 5% 5% 5%;
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+	color:	#64B3D8;
+	margin-bottom: 5px;
+	}
+
+p{
+	font-size: 12px;
+	color: #9F9F9F;
+	line-height: 15px;　
+}
+
+.ad .button{
+
+	width: 30%;
+	background-color:#404040;
+	color: white; 
+	font-size: 15px;
+	padding: 15px 5px 15px 5px;
+	text-align: center;
+	margin: 20px auto 0 auto;
+}
+
+
+.detail-p{
+	width: 25%;
+	margin: 10px 20px 10px 10px ;
+	float: left;
+}
+
+.picture{
+	width:100%;
+}
+
+.detail-w{
+	width: 60%;
+	margin: 10px 20px 20px 20px ;
+	line-height: 14px;
+	float: left;
+}
+
+h2{
+	margin-bottom: 2px; 
+}
+.service h2{
+	width: 100%;
+}
+.service li{
+	font-size: 12px;
+}
+
+
+}
+
+@media(max-width:414px){
+input{
+	float: left;
+	margin-top:10px; 
+}
+.search .button{
+	float: left;
+	margin-top:5px; 
+	}
+
+.word{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:100%;
+	font-size: 25px;
+}
+
+.events{
+	width:100%;
+	float: none;
+}
+.detail-right{
+	width: 100%;
+	float: none;
+}
+
+.detail-p{
+	width: 25%;
+	margin: 10px 20px 10px 10px ;
+	float: left;
+}
+
+.picture{
+	width:100%;
+}
+
+.detail-w{
+	width: 60%;
+	margin: 10px 10px 10px 10px ;
+	line-height: 14px;
+	float: left;
+}
+
+.Menu{
+	width: 90%;
+	margin: 5% 0 5% 0; 
+	float: none;
+
+}
+
+a{
+	display: block;
+	text-decoration:none;
+	color:#202020;
+	width: 20%;
+	margin: 5px 5px 5px 5px ;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	padding: auto 0 auto 0;
+}
+.choose{
+	float: left;
+	width: 25%;
+	padding-left: 5%;
+
+
+
+}
+
+}
+
+@media(max-width:320px){
+
+.ad .button{
+	width: 60%;
+}
+
+.detail-p{
+	margin: 10px 10% 10px 10% ;
+	float: none;
+	width: 80%;
+}
+
+.picture{
+	border-style:solid;
+	border-width:5px ;
+	border-color:#DFDFDF;
+	width: auto;
+}
+
+.detail-w{
+	margin: 10px 10% 10px 10% ;
+	line-height: 14px;
+	width: 80%;
+}
+
+
+}
+
+
+@media(max-width:270px){
+.Contacts{
+	display: none;
+	}
+}
